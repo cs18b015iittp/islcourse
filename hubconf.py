@@ -53,3 +53,6 @@ def visualize_augmentations(dataset, idx=0, samples=10, cols=5, random_img = Fal
      plt.show()    
 
  visualize_augmentations(train_dataset,np.random.randint(1,len(train_image_paths)), random_img = True)
+
+
+
